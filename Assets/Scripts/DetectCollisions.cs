@@ -9,6 +9,7 @@ public class DetectCollisions : MonoBehaviour
     private void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
     }
     private void OnTriggerEnter(Collider other)
     {
